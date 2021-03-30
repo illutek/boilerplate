@@ -1,0 +1,14 @@
+name: MyTheme
+type: theme
+discription: "Boilerplate for Drupal 8 and 9 theming"
+base theme: classy
+package: Custom
+core_version_requirement: 8.x || 9.x
+version: 1.0.0
+
+libraries:
+  - mytheme/globalstyle
+  - mytheme/java
+
+regions:
+  content: Content
